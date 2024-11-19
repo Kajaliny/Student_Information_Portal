@@ -1,4 +1,4 @@
-import '../assests/css/compo.css'
+import '../assets/css/compo.css'
 export default function StudentTable(props){
     return(
         <div className="outerDiv">
@@ -12,6 +12,7 @@ export default function StudentTable(props){
                             <td> Country </td>
                         </tr>
                     </thead>
+
                     <tbody>
                         {
                             props.students.map(student=>
