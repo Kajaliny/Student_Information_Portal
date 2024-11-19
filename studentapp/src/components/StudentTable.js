@@ -26,7 +26,6 @@ export default function StudentTable(props){
                     </tbody>
                 </table>
             </div>
-
         </div>
     )
 }
